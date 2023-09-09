@@ -1,0 +1,26 @@
+ul > li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+.nav-items > ul{
+    display: flex;
+}
+.nav-items > ul > li{
+    padding: 10px;
+}
+.card{
+    width: 200px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+.card > img{
+    width: 100%;
+}
+.container{
+    display: flex;
+}
