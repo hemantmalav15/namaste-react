@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 const Title = () => (
     <h1 id='title' key="h1">
-        Swiggy
+        {/* Rajasthani Delights */}
+        {/* Khamma Ghani Sa -> Restaurant */}
+        Food Plaza
     </h1>
 );
 
@@ -10,10 +13,10 @@ const Header = () => {
             <Title />
             <div className="nav-items">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Cart</li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Cart</a></li>
                 </ul>
             </div>
         </div>
